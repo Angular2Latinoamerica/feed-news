@@ -1,0 +1,13 @@
+<div>
+    <h1>Feed</h1>
+    <div *ngFor="let news of feed | async">
+        <img src="avatar.png" alt="">
+        <div>
+            <span>{{news.user}}</span>
+        </div>
+        <div>
+            <span>{{news.message}}</span>
+        </div>
+        <hr>
+    </div>
+</div>

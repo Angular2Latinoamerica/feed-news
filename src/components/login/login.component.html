@@ -1,0 +1,12 @@
+<div>
+    <h1>Acceso</h1>
+    <label for="">Correo</label>
+    <input [(ngModel)]="email" type="text"> <br>
+    <label for="">Contraseña</label>
+    <input [(ngModel)]="password" type="password"> <br>
+    <div>
+        <a href="#">registrarse</a>
+        <a href="#">olvide la contraseña</a>
+        <button (click)="onLogin()">ingresar</button>
+    </div>
+</div>

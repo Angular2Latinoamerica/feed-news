@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Feed News';
+  hello = "Hola mundo";
+  heroes = [
+    { name: "Batman", "favorite": "Black" },
+    { name: "Robin", favorite: "Red" },
+    { name: "Superman", favorite: "Blue" }
+  ]
 }
