@@ -1,0 +1,12 @@
+<div>
+    <h1>Registrarse</h1>
+    <label for="">Correo</label>
+    <input [(ngModel)]="email" type="text">
+    <label for="">Contraseña</label>
+    <input [(ngModel)]="password" type="password">
+    <label for="">Confirmar</label>
+    <input [(ngModel)]="confirm" type="password">
+    <div>
+        <button (click)="onRegister()">registrarse</button>
+    </div>
+</div>
