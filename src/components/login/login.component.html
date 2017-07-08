@@ -5,8 +5,8 @@
     <label for="">Contraseña</label>
     <input [(ngModel)]="password" type="password"> <br>
     <div>
-        <a href="#">registrarse</a>
-        <a href="#">olvide la contraseña</a>
+        <a routerLink="/register">registrarse</a>
+        <a routerLink="/forget">olvide la contraseña</a>
         <button (click)="onLogin()">ingresar</button>
     </div>
 </div>
